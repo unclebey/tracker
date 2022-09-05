@@ -6,7 +6,7 @@ function TransactionHistory({ transactions, onDeleteTransaction }) {
       <h2>Transaction History</h2>
       <ul>
         {transactions.map((data) => (
-          <li key={data.id}>
+          <li key={data.id} >
             <div>{data.name}</div>
             <div>
               <span> N{data.amount}</span>

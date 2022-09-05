@@ -52,24 +52,31 @@ body {
 
 .row-expense {
   box-shadow: var(--box-shadow);
-  margin-top: 20px;
-  width: 240px;
+  margin-top: 10px;
+  width: 220px;
+  height: 70px;
+  margin-left:35px;
+  
 }
 
 .col-income,
 .col-expense {
-  padding: auto;
+
+  margin: auto;
+  
 }
 
 .col-expense {
   padding-left: auto;
   margin: auto;
+
 }
 
 .col-income span {
   display: inline-block;
   border-right: 1px solid #ccc;
   padding-right: 30px;
+  margin-right: 20px;
 }
 
 .income-text {
@@ -148,11 +155,17 @@ body {
 }
 
 .name-input {
-  width: 200px;
-  height: 30px;
+  width: 220px;
+  height:25px;
 }
 
 .number-input {
-  width: 200px;
-  height: 30px;
+  width: 220px;
+  height: 25px;
+}
+
+ul{
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
